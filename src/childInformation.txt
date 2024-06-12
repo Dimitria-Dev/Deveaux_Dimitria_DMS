@@ -1,0 +1,20 @@
+1,Harper Fields,6,F,01-09-2018,Reading,Cows Milk,Adoption Finalized
+2,Junie Bee,8,F,08-12-2016,Painting,None,Adoption in Progress
+3,Max Hanna,13,M,07-17-2011,Bike Rides & Skating,None,Available for Adoption
+4,Daniel Rogers,7,M,03-23-2017,Soccer,Shellfish,Available for Adoption
+5,Azrael Hall,9,F,05-13-2015,Baseball,None,Adoption in Progress
+6,Marlon Vega,2,M,07-28-2021,Coloring,Cows Milk,Adoption Finalized
+7,Clark Hogan,7,M,02-06-2017,Hiking and Playing Chess,None,Adoption in Progress
+8,Dakota Colon,5,F,12-10-2018,Ballet,None,Available for Adoption
+9,Magnolia Villarreal,12,F,03-03-2012,Painting and Gymnastics,None,Adoption in Progress
+10,Noa Bartlett,10,M,01-26-2014,Hiking,Eggs,Adoption in Progress
+11,Hannah Garcia,4,F,05-30-2020,Playing at the Park,Soy,Available for Adoption
+12,Solomon Kline,2,M,04-06-2022,Coloring,None,Adoption in Progress
+13,Bridget Wright,1,F,05-29-2023,Story-time,None,Adoption in progress
+14,Max Montes,6,M,10-17-2017,Karate,Soy,Available for Adoption
+15,Kathryn Hopkins,5,F,09-18-2018,Ballet and Gymnastics,None,Available for Adoption
+16,Dalton Tucker,3,M,02-01-2021,Painting,None,Adoption in Progress
+17,Alicia Zoom,11,F,09-07-2012,Gardening,Bananas,Adoption Finalized
+18,Zander Blackburn,8,M,03-29-2016,Karate,None,Available for Adoption
+19,Amari Norman,3,F,05-13-2021,Ballet,Gluten,Adoption Finalized
+20,Evelyn Preston,11,F,11-23-2012,Swimming and Skating,Eggs,Adoption in Progress

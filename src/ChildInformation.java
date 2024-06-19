@@ -1,6 +1,6 @@
 /* Dimitria Deveaux
  * CEN 3024 - Software Development I
- * June 12th, 2024
+ * June 19th, 2024
  * ChildInformation.java
  *  This class creates a ChildInformation object that sets a childID, name, age, gender, birthday,
  *  interest, allergies and adoptionStatus:

@@ -1,10 +1,11 @@
 import java.io.*;
 import java.util.ArrayList;
+import java.util.InputMismatchException;
 import java.util.List;
 
 /* Dimitria Deveaux
  * CEN 3024 - Software Development I
- * June 12th, 2024
+ * June 19th, 2024
  * Child.java
  *  This class creates a Child object that performs the following: adding children's information to the DMS from a text file,
  *  removing a child from the DMS by using their childID or full name, update a child's interest or allergy, checking a child's
@@ -28,6 +29,7 @@ public class Child extends ChildInformation{
 
     public void addChild(ChildInformation child) {
         children.add(child);
+        setChildren(children);
     }
 
     /* method: filename
@@ -44,10 +46,11 @@ public class Child extends ChildInformation{
                 String[] fields = line.split(",");
                 addChild(new ChildInformation(Integer.parseInt(fields[0]), fields[1], Integer.parseInt(fields[2]), fields[3], fields[4], fields[5],fields[6],fields[7]));
             }
+            reader.close();
         } catch (FileNotFoundException e) {
             System.out.println("File not found: " + filename);
         } catch (IOException e) {
-            System.out.println("There was an error reading the file: ");
+            System.out.println("There was an error reading the file " + filename);
         }
     }
 
@@ -57,11 +60,15 @@ public class Child extends ChildInformation{
      * return: none
      * purpose: to remove a child from the DMS by their ID number
      * */
-    public void removeByID(int id){
-        for(int i = 0; i < children.size(); i++){
-            if(children.get(i).getChildID() == id){
-                children.remove(i);
+    public void removeByID(int id) throws InputMismatchException{
+        try{
+            for(int i = 0; i < children.size(); i++){
+                if(children.get(i).getChildID() == id){
+                    children.remove(i);
+                }
             }
+        } catch(InputMismatchException e){
+            System.out.println("Input mismatch. Please enter a number.");
         }
     }
 
